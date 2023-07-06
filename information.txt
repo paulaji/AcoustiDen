@@ -29,3 +29,11 @@ for react routing,
 npm install react-router-dom --legacy-peer-deps
 for materialUI icons, 
 npm install @material-ui/icons --legacy-peer-deps (maybe use npm i @mui/material @mui/icons-material)
+
+to run,
+backend part:
+cd music_controller
+python .\manage.py runserver
+frontend part:
+cd frontend
+npm run dev
