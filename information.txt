@@ -1,0 +1,9 @@
+pip install django djangorestframework
+django-admin startproject music_controller
+cd music_controller django-admin startapp api 
+when in music_controller folder,
+when booting up app for the first time:  python .\manage.py makemigrations
+python .\manage.py migrate 
+to run: python .\manage.py runserver
+whenever we make changes in the models, we need to makemigrations
+python .\manage.py makemigrations after that as usual, python .\manage.py migrate
