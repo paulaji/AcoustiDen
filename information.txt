@@ -7,3 +7,13 @@ python .\manage.py migrate
 to run: python .\manage.py runserver
 whenever we make changes in the models, we need to makemigrations
 python .\manage.py makemigrations after that as usual, python .\manage.py migrate
+
+for frontend
+in music_controller dir,
+django-admin startapp frontend
+after setting up all the folder structure (for package.json)
+npm init -y
+after that, for bundling,
+npm i webpack webpack-cli --save-dev
+after that, we install babel so that all browsers including the old ones can read latest version of JS
+npm i @babel/core babel-loader @babel/preset-env @babel/preset-react --save-dev
